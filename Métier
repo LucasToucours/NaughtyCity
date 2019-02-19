@@ -1,0 +1,257 @@
+TEAM_CITOYEN = DarkRP.createJob("Citoyen", { 
+   color = Color (12, 255, 0, 255), 
+   model = {"models/player/Group01/female_01.mdl", "models/player/Group01/female_02.mdl", "models/player/Group01/female_03.mdl", "models/player/Group01/female_05.mdl", "models/player/Group01/female_06.mdl", "models/player/Group01/male_01.mdl", "models/player/Group01/male_02.mdl", "models/player/Group01/male_03.mdl", "models/player/Group01/male_04.mdl", "models/player/Group01/male_05.mdl", "models/player/Group01/male_06.mdl", "models/player/Group01/male_07.mdl", "models/player/Group01/male_08.mdl", "models/player/Group01/male_09.mdl", "models/player/Group02/male_02.mdl", "models/player/Group02/male_04.mdl", "models/player/Group02/male_06.mdl", "models/player/Group02/male_08.mdl"}, 
+   description = [[Vous êtes un citoyen, vous avez le droit de tout faire dans cet ville.]], 
+   weapons = {"keys", "pocket", "deathdisturbance_pickpocket"}, 
+   command = "p1", 
+   max = 0, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_GUNDEALER = DarkRP.createJob("Vendeur d'arme", { 
+   color = Color (12, 255, 0, 255), 
+   model = {"models/player/hostage/hostage_01.mdl", "models/player/hostage/hostage_02.mdl", "models/player/hostage/hostage_03.mdl", "models/player/hostage/hostage_04.mdl"}, 
+   description = [[Vous êtes un vendeur d'arme, vous vendez des armes illégalement ou légalement.]], 
+   weapons = {}, 
+   command = "p2", 
+   max = 2, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_REPOLICE = DarkRP.createJob("Recrue de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes une recrue de police, vous faites règné la lois dans la ville à l'aide d'un collegue policier.]], 
+   weapons = {}, 
+   command = "p3", 
+   max = 10, 
+   salary = 35, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement"
+})
+TEAM_AGPOLICE = DarkRP.createJob("Agent de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes un agent de police, vous faites règné la lois dans la ville.]], 
+   weapons = {}, 
+   command = "p4", 
+   max = 8, 
+   salary = 45, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement",
+})
+TEAM_SEPOLICE = DarkRP.createJob("Sergent de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes un sergent de police, vous faites règné la lois dans la ville.]], 
+   weapons = {}, 
+   command = "p5", 
+   max = 6, 
+   salary = 55, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement",
+})
+TEAM_LIPOLICE = DarkRP.createJob("Lieutenant de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes un lieutenant de police, vous faites règné la lois dans la ville.]], 
+   weapons = {}, 
+   command = "p6", 
+   max = 4, 
+   salary = 65, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement",
+})
+TEAM_CAPOLICE = DarkRP.createJob("Capitaine de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes un capitaine de police, vous faites règné la lois dans la ville.]], 
+   weapons = {}, 
+   command = "p7", 
+   max = 2, 
+   salary = 75, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement",
+})
+TEAM_COPOLICE = DarkRP.createJob("Commissaire de police", { 
+   color = Color (0, 184, 255, 255), 
+   model = {}, 
+   description = [[Vous êtes une recrue de la police, vous faites règné la lois dans la ville à l'aide d'un collegue policier.]], 
+   weapons = {}, 
+   command = "p8", 
+   max = 5, 
+   salary = 85, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = true, 
+   candemote = true,
+   category = "Gouvernement",
+})
+TEAM_MAYOR = DarkRP.createJob("Président", { 
+   color = Color (255, 0, 0, 255), 
+   model = {}, 
+   description = [[Vous êtes monsieur le président, vous faites les lois et donner les licences d'armes.]], 
+   weapons = {}, 
+   command = "p9", 
+   max = 1, 
+   salary = 95, 
+   admin = 0, 
+   vote = true, 
+   hasLicense = true, 
+   candemote = false,
+   category = "Gouvernement",
+      mayor = true 
+})
+TEAM_STAFF = DarkRP.createJob("Staff en service", { 
+   color = Color (169, 0, 255, 255), 
+   model = {}, 
+   description = [[Ce job est reversé au membre du staff.]], 
+   weapons = {}, 
+   command = "p10", 
+   max = 0, 
+   salary = 350, 
+   admin = 1, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Membre du staff",
+      customCheck = function(ply) return
+          table.HasValue({"superadmin", "Administrateur", "Moderateur", "Moderateur-Test"}, ply:GetNWString("usergroup"))
+      end,
+      CustomCheckFailMsg = "Ce job est réservé au membre du staff",
+         PlayerSpawn = function(ply)
+          ply:SetHealth(10000)
+          ply:SetMaxHealth(10000)
+             end,
+         invisible = true 
+})
+TEAM_SUPERADMIN = DarkRP.createJob("Superadmin en service", { 
+   color = Color (169, 0, 255, 255), 
+   model = {}, 
+   description = [[Ce job est réserver au superadmin.]], 
+   weapons = {}, 
+   command = "p11", 
+   max = 0, 
+   salary = 550, 
+   admin = 2, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Membre du staff",
+      customCheck = function(ply) return
+          table.HasValue({"superadmin"}, ply:GetNWString("usergroup"))
+      end,
+      CustomCheckFailMsg = "Ce job est réservé au superadmin",
+         PlayerSpawn = function(ply)
+          ply:SetHealth(100000) 
+          ply:SetMaxHealth(100000)
+             end,
+    invisible = true 
+})
+TEAM_TUEURGAGES = DarkRP.createJob("Tueur à gage", { 
+   color = Color (12, 255, 0, 255), 
+   model = {"models/player/Group01/female_01.mdl", "models/player/Group01/female_02.mdl", "models/player/Group01/female_03.mdl", "models/player/Group01/female_05.mdl", "models/player/Group01/female_06.mdl", "models/player/Group01/male_01.mdl", "models/player/Group01/male_02.mdl", "models/player/Group01/male_03.mdl", "models/player/Group01/male_04.mdl", "models/player/Group01/male_05.mdl", "models/player/Group01/male_06.mdl", "models/player/Group01/male_07.mdl", "models/player/Group01/male_08.mdl", "models/player/Group01/male_09.mdl", "models/player/Group02/male_02.mdl", "models/player/Group02/male_04.mdl", "models/player/Group02/male_06.mdl", "models/player/Group02/male_08.mdl"}, 
+   description = [[Vous êtes un tueur a gage, vous tuez des gens sous contrat.]], 
+   weapons = {"keys", "pocket"}, 
+   command = "p14", 
+   max = 1, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_MEDIC = DarkRP.createJob("Medecin", { 
+   color = Color (12, 255, 0, 255), 
+   model = {}
+   description = [[Vous êtes un medecin, vous sauvez des vies.]], 
+   weapons = {"keys", "pocket", "fas2_ifak"}, 
+   command = "p15", 
+   max = 1, 
+   salary = 45, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Gouvernement"
+})
+TEAM_BANQUIER = DarkRP.createJob("Banquier", { 
+   color = Color (12, 255, 0, 255), 
+   model = {}
+   description = [[Vous êtes un banquier, vous prenez les printers des gens et vous les cacherai en sécurité de tout danger.]],
+   weapons = {"keys", "pocket"}, 
+   command = "p16", 
+   max = 2, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_CUISINIER = DarkRP.createJob("Cuisinier", { 
+   color = Color (12, 255, 0, 255), 
+   model = {}
+   description = [[Vous êtes un cuisinier, vous fournissez de la nourriture à la population.]],
+   weapons = {"keys", "pocket"}, 
+   command = "p17", 
+   max = 2, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_AGENTSECU = DarkRP.createJob("Agent de sécurité", { 
+   color = Color (12, 255, 0, 255), 
+   model = {}
+   description = [[Vous êtes un agent de sécurité, vous devez protégé votre employeur.]],
+   weapons = {"keys", "pocket"}, 
+   command = "p18", 
+   max = 4, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
+TEAM_QUAINCAILLER = DarkRP.createJob("Quincailler", { 
+   color = Color (12, 255, 0, 255), 
+   model = {}
+   description = [[Vous êtes un quincailler, vous fournissez les keypads et les lockpicks.]],
+   weapons = {"keys", "pocket"}, 
+   command = "p19", 
+   max = 2, 
+   salary = 25, 
+   admin = 0, 
+   vote = false, 
+   hasLicense = false, 
+   candemote = false,
+   category = "Citoyenneté"
+})
